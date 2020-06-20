@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SGPI calculator for sem2 KJSCE 2020">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <meta name="keywords" content="KJSCE,sem2,SGPI,2020">
+  <meta name="author" content="Pathik Ghugare">
+  <link rel="stylesheet" href="style.css">
+  <title>SGPI calculator</title>
+</head>
+
+<body>
+  <div class="cn1">
+    <h2 style="text-align: center;">SGPI Calculator for SEM2 KJSCE2020</h2>
+    <h4>for sem 2</h4>
+    <br>
+    <hr>
+  </div>
+
+  <div class="frm">
+    <form id="form">
+      <label>Enter Applied Mathematics II CA Marks: </label>
+      <input type="number" style="width: 5em;" id="M2" />
+      <br />
+      <label>Enter Engineering Physics/EC CA Marks: </label>
+      <input type="number" style="width: 5em;" id="EP" />
+      <br />
+      <label>Enter Engineering Mech/ED CA Marks: </label>
+      <input type="number" style="width: 5em;" id="EM" />
+      <br />
+      <label>Enter Programming in C/EEEE CA Marks: </label>
+      <input type="number" style="width: 5em;" id="PIC" />
+      <br />
+      <label>Enter Environmental Studies/ CS Marks: </label>
+      <input type="number" style="width: 5em;" id="EVS" />
+      <br />
+      <label>Enter Industrial Applications Marks: </label>
+      <input type="number" style="width: 5em;" id="IAP" />
+      <br />
+      <label>Enter Programming in C/EEEE lab marks: </label>
+      <input type="number" style="width: 5em;" id="PIC_lab" />
+      <br />
+      <label>Enter Engineering Physics/EC lab Marks: </label>
+      <input type="number" style="width: 5em;" id="EP_lab" />
+      <br />
+      <label>Enter Engineering Mech/ED lab Marks: </label>
+      <input type="number" style="width: 5em;" id="EM_lab" />
+      <br />
+      <label>Enter Mathematics II tutorial Marks: </label>
+      <input type="number" style="width: 5em;" id="M2_tut" />
+      <br />
+      <label>Enter Workshop II Marks: </label>
+      <input type="number" style="width: 5em;" id="WS" />
+      <br><br>
+      <hr><br>
+      <label>Enter sem-I total marks: </label>
+      <input type="number" style="width: 5em;" id="sem1_tot" />
+      <br><br>
+      <hr><br>
+      <label>Enter sem-I SGPI for CGPA: </label>
+      <input type="number" style="width: 5em;" id="sem1_sgpi" />
+      <br><br>
+      <hr>
+      <div class="btn" onclick="lets_submit()">Submit</div>
+    </form>
+  </div>
+  <div id="result">
+  </div>
+  <footer>
+    Made by Pathik Ghugare
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
